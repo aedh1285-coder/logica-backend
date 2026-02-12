@@ -17,3 +17,11 @@ Permite agregar, mostrar, actualizar y eliminar tareas en memoria.
 - Funciones CRUD
 - Condicionales y loops
 - Manejo de commits y GitHub
+
+- ## Cómo probar funciones sin hardcodearlas
+
+Puedes probar todas las funciones directamente desde Node REPL sin tener que modificar el código cada vez:
+
+1. Abre la terminal en la carpeta del proyecto y escribe:
+   ```bash
+   node
