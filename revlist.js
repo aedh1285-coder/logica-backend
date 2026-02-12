@@ -54,6 +54,6 @@ function eliminartareas (nombreTarea){
 mostrarTareas();
 agregarTarea("Hacer proyecto backend", "enProceso");
 actualizarEstado("Estudiar JavaScript", "completada");
-mostrarTareas();
 eliminartareas("Hacer proyecto backend");
-mostrarTareas();
+
+module.exports = { tareas, agregarTarea, mostrarTareas, actualizarEstado, eliminartareas };
